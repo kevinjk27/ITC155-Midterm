@@ -24,7 +24,11 @@ public class StudentGrades {
 			System.out.println(studentName + "'s original grade: " + studentGrades.get(studentName));
 			System.out.println(studentName + "'s new grade: " + newStudentGrades.get(studentName));
 			scnr.close();
-		} 
+		} else {
+			studentGrades.put(studentName, studentGrade);
+			System.out.println("New Student Added!");
+			System.out.println(studentName + "'s new grade: " + studentGrades.get(studentName));
+		}
 
 	}
 }
