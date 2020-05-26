@@ -16,7 +16,13 @@ public class PhotoLineups {
 	}
 	
 	public static void allPermutations(ArrayList<String> permList, ArrayList<String> nameList) {
+		System.out.println("Enter names, separated by a space. -1 to exit");
+		String name = scnr.next();
 
+		while (!name.equals("-1")) {
+		nameList.add(name);
+		name = scnr.next();
+		}
 	}
 
 }
