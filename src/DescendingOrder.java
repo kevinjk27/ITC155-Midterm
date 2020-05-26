@@ -12,7 +12,7 @@ public class DescendingOrder {
 		int input = scnr.nextInt(); // taking the first number
 
 		while (input != -1) {
-			numbers[i] = input; // adding each number to the array of numbers[]
+			numbers[i] = input; // adding each number to the array
 			i++;
 			numElements++;
 			input = scnr.nextInt(); // taking the next number
